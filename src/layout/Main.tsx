@@ -1,15 +1,17 @@
-import { Outlet } from "react-router-dom";
-import Header from "../components/header/Header";
-import Footer from "../components/footer/Footer";
+import Header from "../components/header/Header"
+import Footer from "../components/footer/Footer"
+import { Outlet } from "react-router-dom"
+import Hero from "../components/hero/Hero"
 
 const Main = () => {
-    return (
-        <div>
-            <Header />
-            <Outlet />
-            <Footer />
-        </div>
-    );
-};
+  return (
+    <>
+      <Header />
+    
+      <Outlet />
+      <Footer />
+    </>
+  )
+}
 
-export default Main;
+export default Main
