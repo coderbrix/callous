@@ -1,13 +1,13 @@
-import { RocketIcon } from "lucide-react"
-import Arc from "../../assets/images/arc.png"
-import b1 from "../../assets/images/b1.png"
-import b2 from "../../assets/images/b2.png"
-import featureDashboard from "../../assets/images/featureDashboard.png"
-import FeatureCard from "../hero/FeatureCard"
-import rocketicon from "../../assets/icons/rocketicon.png"
-import Section from "../../assets/icons/seticon.png"
-import squareicon from "../../assets/icons/squareicon.png"
-import powericon from "../../assets/icons/powericon.png"
+import Arc from "../../../../assets/images/b1.png"
+// import Arc from "../../../../assets/"
+import b1 from "../../../../assets/images/b1.png"
+import b2 from "../../../../assets/images/b2.png"
+import featureDashboard from "../../../../assets/images/featureDashboard.png"
+import FeatureCard from "../../../../components/hero/FeatureCard"
+import rocketicon from "../../../../assets/icons/rocketicon.png"
+import Section from "../../../../assets/icons/seticon.png"
+import squareicon from "../../../../assets/icons/squareicon.png"
+import powericon from "../../../../assets/icons/powericon.png"
 
 const FeatureDashboard = () => {
   return (
