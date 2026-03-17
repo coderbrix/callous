@@ -26,6 +26,8 @@ function About() {
           <img src={heroImg} alt="hero design" />
         </div>
       </div>
+      
+{/* lsjfsflf */}
 
       {/* MISSION SECTION */}
       <div className="mission-section">
@@ -44,6 +46,7 @@ function About() {
           <p>
             Today thousands of teams rely on modern tools to
             build better products and improve collaboration.
+        
           </p>
         </div>
       </div>
