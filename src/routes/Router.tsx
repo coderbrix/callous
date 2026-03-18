@@ -4,7 +4,6 @@ import ErrorPage from "../pages/errorPage/ErrorPage";
 import Contact from "../pages/contact/Contact";
 import Home from "../pages/home/Home";
 import About from "../components/About/About.js";
-export const router = createBrowserRouter([
 
 const router = createBrowserRouter([
     {
@@ -17,9 +16,9 @@ const router = createBrowserRouter([
                 element: <Home/>
             },
              {
-                path: "/About",
+                path: "/about",
                 element: <About/>
-
+             },
             {
                 path: "/contact",
                 element: <Contact />
@@ -27,4 +26,5 @@ const router = createBrowserRouter([
         ]
     }
 ]);
+
 export default router;
