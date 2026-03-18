@@ -1,0 +1,153 @@
+.about {
+  background: #05070f;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HERO SECTION */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-text {
+  z-index: 2;
+  margin-bottom: 20px;
+}
+
+.hero-text .tag {
+  color: #8a8a8a;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  color: white;
+  margin: 0;
+}
+
+/* HERO IMAGE */
+.hero-image {
+  width: 100%;          
+  height: 45vh;         
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.15);
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(1) drop-shadow(0 0 30px rgba(255, 255, 255, 0.1));
+}
+
+/* MISSION SECTION */
+.mission-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding: 120px 8%;
+}
+
+.mission-left h2 {
+  font-size: 36px;
+}
+
+.mission-right {
+  color: #cfcfcf;
+  line-height: 1.7;
+}
+
+/* RELIABILITY SECTION */
+.reliability-section {
+  display: flex;
+  flex-direction: column; /* text first, features below */
+  gap: 40px;
+  padding: 120px 8%;
+}
+
+.reliability-left {
+  text-align: left;
+}
+
+.reliability-left .tag {
+  color: #8a8a8a;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.reliability-left h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.reliability-left p {
+  color: #cfcfcf;
+  line-height: 1.7;
+}
+
+/* FEATURES BELOW TEXT */
+.reliability-features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.feature-box span {
+  font-size: 26px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* TABLET */
+@media (max-width: 1024px) {
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-image {
+    height: 35vh;
+  }
+
+  .mission-section {
+    grid-template-columns: 1fr;
+  }
+
+  .reliability-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .hero-text h1 {
+    font-size: 26px;
+  }
+
+  .hero-image {
+    height: 30vh;
+  }
+
+  .reliability-features {
+    grid-template-columns: 1fr;
+  }
+}
